@@ -1,0 +1,66 @@
+/*
+Creator: Eric Redlak
+Date created: 12/31/2020
+Date last modified:
+*/
+	a:link {
+		color: #1d496e;
+		text-decoration:none;
+	}
+	a:visited {
+		color: #0a2236;
+		text-decoration:none;
+	}
+	a:hover {
+		color: #275f8c;
+		text-decoration:underline;
+	}
+	a:active {
+		color: #c77532;
+		text-decoration:underline;
+	} 	
+	header,footer {
+		background-color: #0A2236;
+		color: #b4d2ea;	
+	}
+	header {
+		height: 100px;
+		text-align: center;
+		padding: 30px 10px 20px 10px;
+	}
+	h1 {
+		font-size:2.5em;
+	}
+	nav {
+		border-top:3px dashed #C77532;
+		border-bottom:3px dashed #C77532;
+		margin-top: 4px;
+	body {
+		background-color: #eeeeee;
+		font-family: arial, helvetica, sans-serif;
+		color: #0d1f2d;
+	}
+	caption {
+		font-weight: bold;
+		font-size:1.2em;
+		margin-bottom: 8px;			
+	}
+	table, th, td{
+		border:1 px solid #0a2236;
+		border-collapse: collapse;
+		padding: 5px 10px;
+	}
+	table {
+		width:90%;
+		margin:auto;
+	}
+	tr {
+		height:30px;
+	}
+	tr:nth-child(odd){
+		background-color:#aaccee;
+	}
+	th {
+		background-color: #0a2236;
+		color:#dcfffd;
+	}	
